@@ -15,4 +15,4 @@ let c=3;//let is same as variable the diffrence is that let can not be re-declar
 /*but if i do this :*/let c=4; //it will throw error
 
 
-const d=5; //this will create a constant variable
+const d=5; //this will create a constant variable.
