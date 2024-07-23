@@ -28,16 +28,18 @@ do {
 
 let person = {name: "John", age: 30, city: "New York"}; //object
 
-for (let key in person) {
+for (let key in person)//used to iterate over the properties of an object
+ {
   console.log(key + ": " + person[key]);
 }
 
 
 
-//for..of Syntax = for (variable of iterable) {  // code to be executed }
+//for..of Syntax = for (variable of iterable) {  // code to be executed } 
  
 let fruits = ["apple", "banana", "cherry"];
 
-for (let fruit of fruits) {
+for (let fruit of fruits) //used to iterate iterable objects like arrays, strings, maps, sets
+{
   console.log(fruit);
 }
