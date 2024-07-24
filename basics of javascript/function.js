@@ -31,4 +31,8 @@ const fun2 = (name) => {
 fun4("Eve") // Outputs: Hello, Eve!
 
 
-
+//Immediately Invoked Function 
+(function() {
+    console.log("This function runs immediately!");
+  })();
+  
