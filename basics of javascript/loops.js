@@ -43,3 +43,30 @@ for (let fruit of fruits) //used to iterate iterable objects like arrays, string
 {
   console.log(fruit);
 }
+
+
+//foreach Syntax= array.forEach(function(currentValue, index, array) {// code to be executed});
+
+//currentValue: The current element being processed in the array.
+//index (optional): The index of the current element being processed in the array.
+//array (optional): The array forEach was called upon.
+
+
+fruits.forEach(function(fruit) {
+  console.log(fruit);
+});
+
+
+
+fruits.forEach(function(fruit, index) {
+  console.log(index + ": " + fruit);
+});
+
+
+let numbers = [1, 2, 3, 4, 5];
+
+numbers.forEach((num, index, arr) => {
+  arr[index] = num * 2;
+});
+
+console.log(numbers);
