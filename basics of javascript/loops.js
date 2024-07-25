@@ -63,6 +63,10 @@ fruits.forEach(function(fruit, index) {
 });
 
 
+// Using arrow function
+fruits.forEach(fruit => console.log(fruit));
+
+
 let numbers = [1, 2, 3, 4, 5];
 
 numbers.forEach((num, index, arr) => {
