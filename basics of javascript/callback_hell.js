@@ -1,4 +1,4 @@
-//callback hell is multiple callback function which nested within each other leading code hard to read and maintain(also called callback pyramid)
+//callback hell occurs when multiple callback functions which are nested within each other making the code hard to read and maintain(also called callback pyramid)
 
 function  firstOperation(callback){
     setTimeout(()=>{
