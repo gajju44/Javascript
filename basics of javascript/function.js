@@ -9,9 +9,10 @@ function fun1(name) {
 
 //we can also define a function in js like below :
 
-const fun2 = (name) => {
+fun2((name) => //also called arrow function
+{
     console.log(name);
-  };
+  });
   
  fun2("Dave");
 
